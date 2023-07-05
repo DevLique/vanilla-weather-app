@@ -32,7 +32,7 @@ function displayTemperature(response){
     humidityElement.innerHTML = response.data.main.humidity;
     dateElement.innerHTML = formatDate(response.data.dt * 1000);
     iconElement.setAttribute("src",`http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`);
-    icon.setAttribute("alt",response.data.weather[0].description;);  
+    iconElement.setAttribute("alt",response.data.weather[0].description);  
 }
 
 let key = "f5029b784306910c19746e40c14d6cd3";
