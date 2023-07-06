@@ -73,3 +73,12 @@ width:64px;
    top:-34px; 
 }
 
+.weather-temperature .active{
+    color:rgb(35, 35, 35);
+    cursor:default;
+    
+}
+
+.weather-temperature .active:hover{
+    text-decoration: none;
+}
