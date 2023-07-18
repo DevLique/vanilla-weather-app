@@ -1,7 +1,6 @@
 body {
   font-family: "Lora", serif;
-  background-image: url("images/weather.background.jpg");
-  background-size: cover;
+  background-color: lightpink;
 }
 
 h1 {
@@ -90,24 +89,21 @@ small {
   text-decoration: none;
 }
 
-.weather-forecast{
+.weather-forecast {
   margin: 20px;
   text-align: center;
   color: #000;
-  
 }
 
-.weather-forecast-date
-{
+.weather-forecast-date {
   font-size: 16px;
   opacity: 0.5;
-  
 }
 
-.weather-forecast-temperature-min{
+.weather-forecast-temperature-min {
   opacity: 0.5;
 }
 
-.weather-forecast-temperature{
+.weather-forecast-temperature {
   font-size: 13px;
 }
